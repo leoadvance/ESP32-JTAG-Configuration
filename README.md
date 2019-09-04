@@ -16,10 +16,10 @@ Eclipse下配置ESP32 Debug环境
 1. 通过Ziadig工具，替换(Interface 0)默认FTDI驱动为WinUSB驱动。  
  ![](./image/Zadig.jpg)  
 <br/>   
-1. 执行**openocd -f interface/ftdi/esp32_devkitj_v1.cfg -f board/esp-wroom-32.cfg**出现如下信息表示OpenOCD成功运行。  
-![](./image/OpenOCD.jpg)    
+1. 执行 ***openocd -f interface/ftdi/esp32_devkitj_v1.cfg -f board/esp-wroom-32.cfg*** 出现如下信息表示OpenOCD成功运行。    
+![](./image/OpenOCD.jpg)      
 <br/>   
-## Eclipse配置  
+## Eclipse配置    
 * [**在Eclipse中使用GDB.pdf**](./doc/在Eclipse中使用GDB.pdf) 
 
 ## 运行  
