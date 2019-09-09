@@ -9,8 +9,10 @@ Eclipse下配置ESP32 Debug环境
 * [**OpenOCD**](https://github.com/espressif/openocd-esp32/releases)  (<font color='green'>Debug工具驱动</font>)   
 
 ## ESP32 JTAG管脚说明
-![](./image/ESP32-JTAG.jpg)  
-
+1. <font color='green'>**ESP-WROOM-32 模组**</font>
+ ![](./image/ESP-WROOM-32-JTAG.jpg)  
+1. <font color='green'>**ESP32-WROOM-32U 模组**</font>
+ ![](./image/ESP32-WROOM-32U-JTAG.jpg)  
 ## ESP-Prog驱动配置  
 1. 连接ESP-Prog至PC，PC会识别到2个虚拟串口。
 1. 通过Ziadig工具，替换(Interface 0)默认FTDI驱动为WinUSB驱动。  
